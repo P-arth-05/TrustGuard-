@@ -17,7 +17,6 @@ import AdminUsers from "./pages/admin/AdminUsers";
 import NotFound from "./pages/NotFound";
 import SessionTracker from "./components/SessionTracker";
 import SecurityChatbot from "./components/SecurityChatbot";
-import Home from "./pages/Hom";
 import Register from "./pages/Register";
  
 const queryClient = new QueryClient();
