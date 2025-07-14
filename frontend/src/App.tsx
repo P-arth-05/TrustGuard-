@@ -35,7 +35,6 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/home" element={<Home />} />
             <Route path="/register" element={<Register />} />
             {/* Public Routes */}
             {/* Admin Routes */}
