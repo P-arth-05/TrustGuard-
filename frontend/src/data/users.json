@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "name": "Krishna",
+    "email": "gargkrishna23@gmail.com",
+    "riskScore": 85,
+    "status": "high_risk",
+    "lastActivity": "2024-01-15T10:30:00Z",
+    "loyaltyPoints": 45000,
+    "suspiciousActivity": [
+      "Multiple account creation attempts",
+      "Unusual redemption patterns"
+    ],
+    "behavioralMetrics": {
+      "mouseMovements": {
+        "baseline": 120,
+        "current": 340,
+        "variance": 183.3,
+        "status": "suspicious"
+      },
+      "keystrokeSpeed": {
+        "baseline": 85,
+        "current": 45,
+        "variance": 47.1,
+        "status": "flagged"
+      },
+      "clickPatterns": {
+        "baseline": 95,
+        "current": 280,
+        "variance": 194.7,
+        "status": "suspicious"
+      },
+      "scrollBehavior": {
+        "baseline": 110,
+        "current": 145,
+        "variance": 31.8,
+        "status": "normal"
+      }
+    },
+    "actionsTaken": [
+      {
+        "action": "Two-Factor Authentication Required",
+        "timestamp": "2024-01-15T09:45:00Z",
+        "status": "completed"
+      },
+      {
+        "action": "Security Questions Triggered",
+        "timestamp": "2024-01-15T10:15:00Z",
+        "status": "failed"
+      },
+      {
+        "action": "Account Locked",
+        "timestamp": "2024-01-15T10:25:00Z",
+        "status": "active"
+      }
+    ],
+    "sessionsToday": 12,
+    "accountAge": "2 weeks"
+  },
+  {
+    "id": 2,
+    "name": "Shraddha Jain",
+    "email": "fghra4432ha21ja8n@gmadasendkil.com",
+    "riskScore": 72,
+    "status": "medium_risk",
+    "lastActivity": "2024-01-15T09:15:00Z",
+    "loyaltyPoints": 30000,
+    "suspiciousActivity": [
+      "Temporary email address",
+      "Frequent password changes"
+    ],
+    "behavioralMetrics": {
+      "mouseMovements": {
+        "baseline": 115,
+        "current": 185,
+        "variance": 60.9,
+        "status": "elevated"
+      },
+      "keystrokeSpeed": {
+        "baseline": 92,
+        "current": 88,
+        "variance": 4.3,
+        "status": "normal"
+      },
+      "clickPatterns": {
+        "baseline": 88,
+        "current": 145,
+        "variance": 64.8,
+        "status": "elevated"
+      },
+      "scrollBehavior": {
+        "baseline": 105,
+        "current": 95,
+        "variance": 9.5,
+        "status": "normal"
+      }
+    },
+    "actionsTaken": [
+      {
+        "action": "Email Verification Required",
+        "timestamp": "2024-01-15T08:30:00Z",
+        "status": "pending"
+      },
+      {
+        "action": "Purchase Limit Applied",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "status": "active"
+      }
+    ],
+    "sessionsToday": 6,
+    "totalOrders": 15,
+    "accountAge": "3 days"
+  },
+  {
+    "id": 3,
+    "name": "Raj Sharma",
+    "email": "sharmaji21@gmail.com",
+    "riskScore": 45,
+    "status": "medium_risk",
+    "lastActivity": "2024-01-15T08:45:00Z",
+    "loyaltyPoints": 12000,
+    "suspiciousActivity": [
+      "Rapid points accumulation",
+      "Multiple shipping addresses"
+    ],
+    "behavioralMetrics": {
+      "mouseMovements": {
+        "baseline": 108,
+        "current": 125,
+        "variance": 15.7,
+        "status": "normal"
+      },
+      "keystrokeSpeed": {
+        "baseline": 78,
+        "current": 95,
+        "variance": 21.8,
+        "status": "normal"
+      },
+      "clickPatterns": {
+        "baseline": 102,
+        "current": 130,
+        "variance": 27.5,
+        "status": "normal"
+      },
+      "scrollBehavior": {
+        "baseline": 98,
+        "current": 115,
+        "variance": 17.3,
+        "status": "normal"
+      }
+    },
+    "actionsTaken": [
+      {
+        "action": "Address Verification Required",
+        "timestamp": "2024-01-15T08:00:00Z",
+        "status": "completed"
+      }
+    ],
+    "sessionsToday": 4,
+    "totalOrders": 28,
+    "accountAge": "1 month"
+  },
+  {
+    "id": 4,
+    "name": "Suhani Verma",
+    "email": "11febsuhani@yahoo.com",
+    "riskScore": 92,
+    "status": "high_risk",
+    "lastActivity": "2024-01-15T11:20:00Z",
+    "loyaltyPoints": 67000,
+    "suspiciousActivity": [
+      "Automated behavior detected",
+      "Multiple failed login attempts"
+    ],
+    "behavioralMetrics": {
+      "mouseMovements": {
+        "baseline": 125,
+        "current": 450,
+        "variance": 260.0,
+        "status": "flagged"
+      },
+      "keystrokeSpeed": {
+        "baseline": 89,
+        "current": 15,
+        "variance": 83.1,
+        "status": "flagged"
+      },
+      "clickPatterns": {
+        "baseline": 93,
+        "current": 380,
+        "variance": 308.6,
+        "status": "flagged"
+      },
+      "scrollBehavior": {
+        "baseline": 112,
+        "current": 25,
+        "variance": 77.7,
+        "status": "suspicious"
+      }
+    },
+    "actionsTaken": [
+      {
+        "action": "Account Suspended",
+        "timestamp": "2024-01-15T11:00:00Z",
+        "status": "active"
+      },
+      {
+        "action": "Security Team Review",
+        "timestamp": "2024-01-15T11:10:00Z",
+        "status": "in_progress"
+      }
+    ],
+    "sessionsToday": 15,
+    "totalOrders": 2,
+    "accountAge": "1 week"
+  },
+  {
+    "id": 5,
+    "name": "Sydney Sweeney",
+    "email": "sydney00sweeney@email.com",
+    "riskScore": 58,
+    "status": "medium_risk",
+    "lastActivity": "2024-01-15T07:30:00Z",
+    "loyaltyPoints": 8500,
+    "suspiciousActivity": [
+      "Unusual browsing patterns",
+      "Frequent cart abandonment"
+    ],
+    "behavioralMetrics": {
+      "mouseMovements": {
+        "baseline": 118,
+        "current": 165,
+        "variance": 39.8,
+        "status": "elevated"
+      },
+      "keystrokeSpeed": {
+        "baseline": 82,
+        "current": 75,
+        "variance": 8.5,
+        "status": "normal"
+      },
+      "clickPatterns": {
+        "baseline": 96,
+        "current": 140,
+        "variance": 45.8,
+        "status": "elevated"
+      },
+      "scrollBehavior": {
+        "baseline": 108,
+        "current": 122,
+        "variance": 13.0,
+        "status": "normal"
+      }
+    },
+    "actionsTaken": [
+      {
+        "action": "Browsing Pattern Analysis",
+        "timestamp": "2024-01-15T07:00:00Z",
+        "status": "completed"
+      }
+    ],
+    "sessionsToday": 6,
+    "totalOrders": 8,
+    "accountAge": "2 months"
+  }
+]

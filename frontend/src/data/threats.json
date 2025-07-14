@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "domain": "suspicious-deals.com",
+    "riskLevel": "high",
+    "threatType": "Phishing",
+    "firstSeen": "2024-01-14T15:30:00Z",
+    "lastSeen": "2024-01-15T11:45:00Z",
+    "attempts": 47,
+    "description": "Fake website mimicking our brand to steal credentials",
+    "blocked": true
+  },
+  {
+    "id": 2,
+    "domain": "retail-guard-shop.net",
+    "riskLevel": "critical",
+    "threatType": "Brand Impersonation",
+    "firstSeen": "2024-01-13T09:15:00Z",
+    "lastSeen": "2024-01-15T10:20:00Z",
+    "attempts": 156,
+    "description": "Direct brand impersonation with similar domain name",
+    "blocked": true
+  },
+  {
+    "id": 3,
+    "domain": "free-loyalty-points.org",
+    "riskLevel": "high",
+    "threatType": "Loyalty Fraud",
+    "firstSeen": "2024-01-15T06:00:00Z",
+    "lastSeen": "2024-01-15T11:30:00Z",
+    "attempts": 23,
+    "description": "Offering fake loyalty points in exchange for account details",
+    "blocked": false
+  },
+  {
+    "id": 4,
+    "domain": "retailtrustguard-support.com",
+    "riskLevel": "medium",
+    "threatType": "Support Scam",
+    "firstSeen": "2024-01-12T14:20:00Z",
+    "lastSeen": "2024-01-15T09:10:00Z",
+    "attempts": 89,
+    "description": "Fake customer support site collecting personal information",
+    "blocked": true
+  },
+  {
+    "id": 5,
+    "domain": "trustguard-verification.co",
+    "riskLevel": "low",
+    "threatType": "Account Verification Scam",
+    "firstSeen": "2024-01-11T11:45:00Z",
+    "lastSeen": "2024-01-14T16:30:00Z",
+    "attempts": 12,
+    "description": "Requesting account verification through fake portal",
+    "blocked": false
+  }
+]
